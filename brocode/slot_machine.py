@@ -59,12 +59,14 @@ def main():
         if payment > 0:
             print(f'You won {payment}')
             balance+=payment
+            print(f'Your Current Balance is {balance}')
 
-        check = input('Please enter to continue : ')
+
+        check = input('Please enter y to continue : ')
 
         
 
-        if not check == '':
+        if not check == 'y':
             break
 
 
